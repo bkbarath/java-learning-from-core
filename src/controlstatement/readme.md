@@ -64,5 +64,48 @@ It is easy to use instead of if-else-if, and it provides more readability.
 2. The case cannot be duplicate
 3. Default statement is similar to else statement it will execute when any of the code doesn't match the expression. 
 It is optional. But it used to handle unexpected values
-4. Break statement terminates the switch block when the condition is satisfied. It is optional, If is not use, the 
+4. Break statement terminates the switch block when the condition is satisfied. It is optional, If is not use, the next
+case will be executed
+5. While using switch statement we must ensure both the expression and case variable in same type 
+
+
+    switch (expressio) {
+        case value1:
+            // block of code for case 1
+            break;
+        case value2:
+            // block of code for case 2
+            break;
+        default:
+            // block of code for default case
+            break;
+    }
+
+***Loop Statements***
+
+    1. for 
+    2. while
+    3. do-while
+
+**for loop:**
+    Java for loop is similar to C and C++ for loops. it enables us to initialize, check the condition and 
+increment/decrement in single line. We need to use the for loop when we exactly know how much times the block 
+of code need to be executed.
+
+    for ( initialize; condition; increment/decrement) {
+        // block of code
+    }
+
+***for each loop:***
+    Java provides an enhanced for loop to traverse data structure like array or any collection. If the for loop we not
+need to update the loop variable
     
+    for (type variable: array/collection) {
+        // block of code
+    }
+
+****while loop***
+    `while loop` is also used for execute the block of statements number of times. However, if we don't know how many
+iterations in advance while loop is recommended. Unlike for loop initialization, increment/decrement doesn't take place.
+It has also known as entry controlled loop since the condition is checked at the start of the loop. If the condition is true
+the block of code in the loop will be executed. if the condition is false the block of code after loop will be executed.

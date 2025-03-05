@@ -42,7 +42,7 @@ which will executed if the `if` condition is `false`.
         // block of code
     }
 
-**if-else-if:** `if-else-if` statement contains multiple of else-if statements. In other way we can say
+**if-else-if:** `if-else-if` statement contains multiple of else-if statements. In another way we can say
 it as `if-else-if` chain that create a decision tree may enter the block of code where the condition is true.
 
     if (condition-1) {
@@ -57,7 +57,7 @@ it as `if-else-if` chain that create a decision tree may enter the block of code
 
 **switch:** `switch` statements are similar to `if-else-if` statements. The switch statements contain multiple block of
 code which is called as cases. A single case will be executed based on the variable which is being switched.
-It is easy to use instead of if-else-if, and it provides more readability.
+It is straightforward to use instead of if-else-if, and it provides more readability.
 
 ***Main Points to Note***
 1. The case variable can be int, byte, short, char, enum and even String since Java 7

@@ -41,3 +41,32 @@
 `Prime Number Check:` Check if a number is prime `(for loop and if-else)`.
 
 `Grade System:` Assign grades based on marks (90-100: A, 80-89: B, etc.) `(switch-case).`
+
+**🔴 _Hard Level_**
+
+`Palindrome Number:` Check if a given number is a palindrome `(while loop)`.
+
+`Armstrong Number:` Check if a number is an Armstrong number (e.g., 153 = 1³ + 5³ + 3³) `(for loop)`.
+
+`LCM of Two Numbers:` Find the Least Common Multiple (LCM) using `loops`.
+
+`GCD of Two Numbers:` Find the Greatest Common Divisor (GCD) using `loops`.
+
+`Prime Numbers in a Range:` Print all prime numbers between 1 and 100 `(nested for loop)`.
+
+`Number Pattern Printing:` Print patterns like:
+
+    *
+    **
+    ***
+    ****
+    *****
+
+`Skip Multiples of 3:` Print numbers from 1 to 50 but skip multiples of 3 `(continue statement)`.
+
+`Perfect Number:` Check if a number is a perfect number (sum of its divisors equals the number).
+
+`Number to Words:` Convert a number to words (e.g., 123 → One Two Three) `(switch-case and loops)`.
+
+`Find Prime Numbers using Break:` Stop checking once a non-prime is found in a sequence of numbers `(break statement)`.
+
